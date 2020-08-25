@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "Satish Babariya" => "satish.babariya@gmail.com" }
 
   s.cocoapods_version = '>= 1.4.0'
-  s.swift_version = '5.1'
+  s.swift_version = '5.1.1'
 
   s.ios.deployment_target = "9.0"
   s.osx.deployment_target = "10.12"
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.framework  = "Foundation" ,"Contacts"
 
   s.static_framework = true
-  s.dependency 'RxSwift', '~> 5.1'
-  s.dependency 'RxCocoa', '~> 5.1'
+  s.dependency 'RxSwift', '~> 5.1.1'
+  s.dependency 'RxCocoa', '~> 5.1.1'
 
 end
